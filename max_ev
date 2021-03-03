@@ -1,6 +1,6 @@
 % we're looking for the largest eigenvalue
 
-function result=wlasna_max(A)
+function result=max_ev(A)
 s = size(A);
 n = s(1);
 x = rand(n,1); % x - starting vector, x=sigma(a_i*u_i), u_i - eigenvectors
