@@ -2,7 +2,7 @@
 % we'll use the Cholesky decomposition
 % A = L*t(L)
 
-function result=wlasna_min_chol(A)
+function result=min_chol(A)
 s = size(A);
 n = s(1);
 x = rand(n,1);
