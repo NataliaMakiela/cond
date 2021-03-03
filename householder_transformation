@@ -1,6 +1,6 @@
 % QR decomposition using the Householder transformation
 
-function [Q,A]=rozw_householder(A)
+function [Q,A]=householder_transformation(A)
 [m,n]=size(A);
 I = eye(m);
 Q = I;
