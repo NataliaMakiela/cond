@@ -1,9 +1,0 @@
-function cond=moj_cond_householder(A)
-a=wlasna_max(A);
-b=wlasna_min_householder(A);
-if b == 0
-    cond = inf;
-else
-cond = a/b;
-end
-end
